@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default async function UserPage({ params }) {
   const { slug } = await params;
-  const [userResponse, postsResponse] = await Promise.all([fetch(`https://jsonplaceholder.typicode.com/users${slug}`), fetch(`https://jsonplaceholder.typicode.com/posts?userId=${slug}`)]);
+  const [userResponse, postsResponse] = await Promise.all([fetch(`https://jsonplaceholder.typicode.com/users/${slug}`), fetch(`https://jsonplaceholder.typicode.com/posts?userId=${slug}`)]);
 
   if (userResponse.status !== 200 || postsResponse.status !== 200) throw new Error("Failed to fetch user's posts.");
   const [user, posts] = await Promise.all([userResponse.json(), postsResponse.json()]);
