@@ -2,13 +2,19 @@
 
 ### Lab 1
 
+<br>
+
 ![Home](./lab1/assets/Home.png)
 ![Posts](./lab1/assets/Posts.png)
 ![Categories](./lab1/assets/Categories.png)
 ![CategoryPost](./lab1/assets/Category%20Posts.png)
 ![Post](./lab1/assets/Post.png)
 
+</br></br>
+
 ### Lab 2
+
+</br>
 
 ![Home](./lab2/assets/Home.png)
 ![Posts](./lab2/assets/Posts.png)
